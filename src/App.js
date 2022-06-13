@@ -14,8 +14,8 @@ import { Signup } from "./Components/Layout/Signup/Signup";
 import { Profile } from "./Components/Profile/Profile";
 import { ProductDetails } from "./Components/Layout/ProductDetails";
 import { Confirmed } from "./Components/Layout/Confirmed";
-import { Partner } from "./Components/Partners/Partner";
-import { Franchise } from "./Components/Partners/Franchise";
+// import { Partner } from "./Components/Partners/Partner";
+// import { Franchise } from "./Components/Partners/Franchise";
 import { Woman } from "./Page/WomanComponents/Woman";
 import { Terms } from "./Page/TermsComponents/Terms";
 import { Privacy } from "./Page/PrivacyComponents/Privacy";
@@ -36,8 +36,8 @@ function App() {
           <Route path="/searchR" element={<SearchR />} />
           <Route path="/confirm" element={<Confirmed />} />
           <Route path="/searchR/:id" element={<ProductDetails />} />
-          <Route path="/earnwithus" element={<Partner />} />
-          <Route path="/ownafranchise" element={<Franchise />} />
+          {/* <Route path="/earnwithus" element={<Partner />} /> */}
+          {/* <Route path="/ownafranchise" element={<Franchise />} /> */}
           <Route path="/rbforwomen" element={<Woman />} />
           <Route path="/terms&conditions" element={<Terms />} />
           <Route path="/privacypolicy" element={<Privacy />} />

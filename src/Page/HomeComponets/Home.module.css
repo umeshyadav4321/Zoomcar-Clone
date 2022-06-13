@@ -22,12 +22,12 @@
 }
 
 .landing_form{
-    height: 400px;
+    height: 450px;
     background-color:white;
-    margin-top: -700px;
-    margin-left: 150px;
+    margin-top: -600px;
+    margin-left: 490px;
     padding-top: 20px;
-    width: 400px;
+    width: 550px;
     padding-left: 40px;
     box-shadow: 10px 10px 10px 10px rgb(228, 227, 225);
 }
@@ -45,26 +45,27 @@
 }
 
 .landing_form input{
-    margin-top: 20px;
-    width: 150px;
+    margin-top: 25px;
+    width: 200px;
 
 }
 .landing_form p{
-    font-size: 20px;
-    margin-top: 30px;
-    line-height: 0.9;
-    font-weight: 600;
+    font-size: 25px;
+    margin-top: 35px;
+    line-height: 1;
+    font-weight: 650;
     color: black;
 }
 
 .landing_form button{
-    margin-top: 30px;
+    margin-left: 90px;
+    margin-top: 40px;
     width: 300px;
     text-align: center;
     justify-content: center;
     background-color: #fed250;
     height: 40px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     border: none;
     border-radius: 10px;
