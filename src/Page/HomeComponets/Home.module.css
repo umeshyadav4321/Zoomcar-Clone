@@ -24,7 +24,7 @@
 .landing_form{
     height: 450px;
     background-color:white;
-    margin-top: -600px;
+    margin-top: -700px;
     margin-left: 490px;
     padding-top: 20px;
     width: 550px;
@@ -45,15 +45,17 @@
 }
 
 .landing_form input{
-    margin-top: 25px;
-    width: 200px;
+    margin-top: 30px;
+    width: 220px;
+    padding: 10px;
+    font-size: 20px;
 
 }
 .landing_form p{
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 35px;
     line-height: 1;
-    font-weight: 650;
+    font-weight: 750;
     color: black;
 }
 

@@ -1,6 +1,7 @@
 .firstbox{
    /* border: 1px solid red;  */
    width: 60%;
+   display: flex;
 }
 .secondbox{
     /* border: 1px solid pink; */
