@@ -1,4 +1,4 @@
-# Royal Brother Clone
+<!-- # Royal Brother Clone
 This repository is for developing the Royal Brother clone.
 
 
@@ -67,4 +67,4 @@ It os our Login Page .
 
 - Github: [Manoj](https://github.com/amnishad0512)
 - Linkedin: [Manoj](https://www.linkedin.com/in/amnishad0512/)
-
+ -->
