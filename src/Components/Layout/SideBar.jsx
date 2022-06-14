@@ -3,12 +3,12 @@ import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
-import Divider from "@mui/material/Divider";
+// import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
-import ListItemIcon from "@mui/material/ListItemIcon";
+// import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
-import MailIcon from "@mui/icons-material/Mail";
+// import InboxIcon from "@mui/icons-material/MoveToInbox";
+// import MailIcon from "@mui/icons-material/Mail";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Link } from "react-router-dom";
 
@@ -33,15 +33,15 @@ export default function SideBar() {
 
   const list = (anchor) => (
     <Box
-      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 250 }}
+      sx={{ width: anchor === "top" || anchor === "bottom" ? "auto" : 300}}
       role="presentation"
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["Tariff" , "Store", "RB for women", "Blog","Terms & Conditions","Privacy Policy"].map((text, index) => (
+        {["Tariff" , "Store", "Blog","Terms & Conditions","Privacy Policy"].map((text, index) => (
           <ListItem button key={text} component={Link} to={`/${text.toLowerCase().split(" ").join("")}`}  >
-            <ListItemText sx={{borderBottom:"1px solid gray",fontSize:"6px"}} primary={text}   />
+            <ListItemText sx={{borderBottom:"3px solid gray",fontSize:"10px"}} primary={text}   />
           </ListItem>
           
         ))}
