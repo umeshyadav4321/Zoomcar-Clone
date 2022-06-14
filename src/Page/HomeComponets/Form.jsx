@@ -47,7 +47,7 @@ const Form = () => {
         />
         <input type="time" name="dropTime" onChange={dataHandle} />
         <Link to="/searchR">
-          <button onClick={handleAdd}>Search</button>
+          <button>Search</button>
         </Link>
       </form>
     </div>
