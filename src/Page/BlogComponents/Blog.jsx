@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import style from "./Blog.module.css";
 
-import Line from "../HomeComponets/Line";
+// import Line from "../HomeComponets/Line";
 
 export const Blog = () => {
   const [data, setData] = useState([]);
@@ -24,7 +24,7 @@ const [page,setPage] =useState(1)
   return (
     <>
       <h1 className={style.blog_h1}>Blog</h1>
-      <Line/>
+      {/* <Line/> */}
       <div className={style.blog_container}>
         
         {data.map((ele, index) => (
