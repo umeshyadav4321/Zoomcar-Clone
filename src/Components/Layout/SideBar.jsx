@@ -35,7 +35,7 @@ export default function SideBar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {["news " , "Store", "Blog","Terms & Conditions","Privacy Policy"].map((text, index) => (
+        {["Carslist" , "SupermilerClub", "Blog","Terms & Conditions","Privacy Policy"].map((text, index) => (
           <ListItem button key={text} component={Link} to={`/${text.toLowerCase().split(" ").join("")}`}  >
             <ListItemText sx={{borderBottom:"3px solid gray",fontSize:"10px"}} primary={text}   />
           </ListItem>

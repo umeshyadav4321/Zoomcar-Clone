@@ -29,21 +29,6 @@ export const Terms = () => {
     <p class="px-4 t-desc">The delivery will happen within 12 hours of the selected booking date.</p>
     <p class="px-4 t-desc">Original driving license, present and permanent address proof (any government-issued address proof).</p>
 
-    <p class="fw-bold px-4 t-title">Use of Vehicle</p>
-    <p class="px-4 t-desc">These motorcycles we rent are large, heavyweight, very powerful and not appropriate for beginner or inexperienced riders.</p>
-    <p class="px-4 t-desc">The lessee should have a valid driving license, be at least 18 years old and must always wear a helmet while riding.</p>
-    <p class="px-4 t-desc">Must have appropriate riding gear, i.e... Boots or closed toe shoes, pants & eyewear. No flip-flops, sandals or shorts.</p>
-    <p class="px-4 t-desc">Only the lessee is permitted to drive the vehicle</p>
-    <p class="px-4 t-desc">Lessee is responsible for his insurance; Lessor will not be responsible for any accidental expenses of Rider.</p>
-    <p class="px-4 t-desc">The lessee shall use the bike entirely at his/her own risk and agrees that lessor will not accept any responsibility or be held accountable for any loss, injury or death as a result of, or leading from the hire of any of the vehicles.</p>
-    <p class="px-4 t-desc">The bike shall be returned back to lessor in the same condition in which it was handed over to lessee.</p>
-    <p class="px-4 t-desc">In case the vehicle returned is found excessively dirty/muddy, the lessee will have to bear the charge of washing not exceeding 200 Rupees.</p>
-    <p class="px-4 t-desc">Rental package does not include Fuel, Toll, road side assistance and Taxes</p>
-    <p class="px-4 t-desc">Lessee is responsible for any traffic violations incurred due to your use of a rented vehicle. Lessor is not liable for any costs from any such violation.</p>
-    <p class="px-4 t-desc">You must report such violations to a Lessor’s Representative as soon as possible.</p>
-    <p class="px-4 t-desc">Towing service will be borne by the customer in case of unlikely event of tire puncture or collision or breakdown due to improper usage. In the event of mechanical or technical failure, we will take care in towing the bike at our own cost</p>
-    <p class="px-4 t-desc">All our bikes have GPS tracking devices; we recommend that you follow speed guidelines – our team gets automated updates on the bikes that exceed speed limits.</p>
-
     <p class="fw-bold px-4 t-title">Prohibited Uses</p>
     <p class="px-4 t-desc">The use of a Lessor’s vehicle under the following conditions is prohibited:</p>
     <p class="px-4 t-desc">Our motorcycles cannot be used for rallies and rally surcharges or any format of professional or amateur competitions and media usage.</p>

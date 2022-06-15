@@ -1,0 +1,26 @@
+.landing_image{
+    /* background-color: aquamarine; */
+    background-image: url("../../../public/Imgs/supermiler.png");
+    /* background-image: url(); */
+    height: 800px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 250px; */
+    
+}
+.landing_image1{
+    /* background-color: aquamarine; */
+    background-image: url("../../../public/Imgs/supermiler2.jpg");
+    /* background-image: url(); */
+    height: 800px;
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 250px; */
+    
+}

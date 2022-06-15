@@ -14,7 +14,9 @@ import { ProductDetails } from "./Components/Layout/ProductDetails";
 import { Terms } from "./Page/TermsComponents/Terms";
 import { Privacy } from "./Page/PrivacyComponents/Privacy";
 import { Blog } from "./Page/BlogComponents/Blog";
-import News from "./Components/Layout/News";
+// import News from "./Components/Layout/News";
+import Carslist from "./Page/Carslist/Carslist"
+import SupermilerClub from "./Page/Supermiler/SupermilerClub";
 
 function App() {
   return (
@@ -23,7 +25,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/news" element={<News/>} />
+          <Route path="/carslist" element={<Carslist/>} />
+          <Route path="/supermilerClub" element={<SupermilerClub/>} />
           {/* <Route path="/tariff" element={<Tariff />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

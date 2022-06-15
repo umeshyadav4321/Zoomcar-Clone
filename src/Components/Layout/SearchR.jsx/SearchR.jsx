@@ -7,7 +7,9 @@ export const SearchR = () => {
   
 
   return (
+    
     <div className={styles.container}>
+      
       <SearchCard
    
     name="Honda_city"
