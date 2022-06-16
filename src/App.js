@@ -17,6 +17,7 @@ import { Blog } from "./Page/BlogComponents/Blog";
 // import News from "./Components/Layout/News";
 import Carslist from "./Page/Carslist/Carslist"
 import SupermilerClub from "./Page/Supermiler/SupermilerClub";
+import {Success} from "./Page/success/Success"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/carslist" element={<Carslist/>} />
           <Route path="/supermilerClub" element={<SupermilerClub/>} />
+          <Route path="/success" element={<Success/>} />
           {/* <Route path="/tariff" element={<Tariff />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />

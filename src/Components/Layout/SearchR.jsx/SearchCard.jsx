@@ -10,6 +10,7 @@ import styles from "./SearchCard.module.css";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import Success from "../../../Page/success/Success";
 
 const bull = (
   <Box
@@ -72,15 +73,13 @@ export default function Searchcard({ name, price, img, id }) {
             {price}
           </div>
           <div>
-            <Button
+            <Link to="/success"><Button
               sx={{ backgroundColor: "#FED250", color: "black" }}
               variant="contained"
-              component={Link}
-              to= {login?`/searchR/${id}`:'/login'}
-              // to={'/login'}
             > 
               Book
-            </Button>
+            </Button></Link>
+            
           </div>
         </div>
       </CardContent>
@@ -89,3 +88,17 @@ export default function Searchcard({ name, price, img, id }) {
     </Card>
   );
 }
+//  <Link to="/searchR">
+//         <SearchR/>
+//       </Link>
+{/* <Button
+component={Link}
+to="/signup"
+sx={{
+  color: "black",
+  backgroundColor: "white",
+  textTransform: "none",
+}}
+>
+<b>Sign Up</b>
+</Button> */}
