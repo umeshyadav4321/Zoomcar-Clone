@@ -1,0 +1,39 @@
+.hos{
+    /* background-color: aquamarine; */
+    background-image: url("../../../public/Imgs/host1.jpg");
+    /* background-image: url(); */
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 250px; */
+    
+}
+.hos1{
+    /* background-color: aquamarine; */
+    background-image: url("../../../public/Imgs/host2.jpg");
+    /* background-image: url(); */
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 250px; */
+    
+}
+.hos2{
+    /* background-color: aquamarine; */
+    background-image: url("../../../public/Imgs/host3.jpg");
+    /* background-image: url(); */
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* padding-top: 40px; */
+    /* padding-left: 250px; */
+    
+}

@@ -1,12 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styles from "./Footer.module.css"
-import InstagramIcon from '@mui/icons-material/Instagram';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import { style } from '@mui/material/node_modules/@mui/system';
-import CircleIcon from '@mui/icons-material/Circle';
+
 
 export const Footer = () => {
   return (

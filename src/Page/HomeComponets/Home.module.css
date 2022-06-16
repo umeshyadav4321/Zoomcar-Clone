@@ -107,7 +107,8 @@
     width: 300px;
     text-align: center;
     justify-content: center;
-    background-color: #fed250;
+    background-color: rgb(16,163,16);
+    color: white;
     height: 40px;
     font-size: 25px;
     font-weight: 600;

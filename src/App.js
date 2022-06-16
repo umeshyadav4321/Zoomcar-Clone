@@ -9,7 +9,7 @@ import { Login } from "./Components/Layout/Login/Login";
 import { store } from "./Redux/store";
 import { Provider } from "react-redux";
 import { Signup } from "./Components/Layout/Signup/Signup";
-import { ProductDetails } from "./Components/Layout/ProductDetails";
+// import { ProductDetails } from "./Components/Layout/ProductDetails";
 // import { Confirmed } from "./Components/Layout/Confirmed";
 import { Terms } from "./Page/TermsComponents/Terms";
 import { Privacy } from "./Page/PrivacyComponents/Privacy";
@@ -18,6 +18,8 @@ import { Blog } from "./Page/BlogComponents/Blog";
 import Carslist from "./Page/Carslist/Carslist"
 import SupermilerClub from "./Page/Supermiler/SupermilerClub";
 import {Success} from "./Page/success/Success"
+import Offer from "./Page/offer/Offer";
+import Host from "./Page/host/Host";
 
 function App() {
   return (
@@ -29,12 +31,14 @@ function App() {
           <Route path="/carslist" element={<Carslist/>} />
           <Route path="/supermilerClub" element={<SupermilerClub/>} />
           <Route path="/success" element={<Success/>} />
+          <Route path="/offer" element={<Offer/>} />
+          <Route path="/host" element={<Host/>} />
           {/* <Route path="/tariff" element={<Tariff />} /> */}
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/searchR" element={<SearchR />} />
           {/* <Route path="/confirm" element={<Confirmed />} /> */}
-          <Route path="/searchR/:id" element={<ProductDetails />} />
+          {/* <Route path="/searchR/:id" element={<ProductDetails />} /> */}
           <Route path="/terms&conditions" element={<Terms />} />
           <Route path="/privacypolicy" element={<Privacy />} />
           <Route path="/blog" element={<Blog />} />

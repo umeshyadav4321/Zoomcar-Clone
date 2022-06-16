@@ -64,6 +64,8 @@ export default function Navbar() {
             <Button
               variant="text"
               sx={{ textTransform: "none", color: "white",fontSize:"20px",marginLeft:"30px",}}
+              component={Link}
+              to="/host"
             >
               Become Host
             </Button>
@@ -93,8 +95,8 @@ export default function Navbar() {
               component={Link}
               to="/signup"
               sx={{
-                color: "black",
-                backgroundColor: "white",
+                color: "white",
+                backgroundColor: "rgb(16,163,16)",
                 textTransform: "none",
               }}
             >

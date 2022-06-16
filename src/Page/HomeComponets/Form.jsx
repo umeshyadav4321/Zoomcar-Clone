@@ -16,14 +16,14 @@ const Form = () => {
     const { value, name } = e.target;
     setData({ ...data, [name]: value });
   };
-  const url = "https://adidas-db.herokuapp.com/time";
-  const handleAdd = () => {
-    fetch(url, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(data),
-    });
-  };
+  // const url = "https://adidas-db.herokuapp.com/time";
+  // const handleAdd = () => {
+  //   fetch(url, {
+  //     method: "POST",
+  //     headers: { "content-type": "application/json" },
+  //     body: JSON.stringify(data),
+  //   });
+  // };
   // console.log()
   // console.log(data)
   return (

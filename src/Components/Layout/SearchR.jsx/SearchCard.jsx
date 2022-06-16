@@ -74,7 +74,7 @@ export default function Searchcard({ name, price, img, id }) {
           </div>
           <div>
             <Link to="/success"><Button
-              sx={{ backgroundColor: "#FED250", color: "black" }}
+              sx={{ backgroundColor: "rgb(16,163,16)", color: "white" }}
               variant="contained"
             > 
               Book

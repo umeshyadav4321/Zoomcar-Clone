@@ -13,7 +13,7 @@ export const Success = ()=>{
                 <h1 style={{color:"teal"}}>You're all set!</h1>
                 <p>Your Order ID : #{uuid()}</p>
                 <p style={{fontSize:"30px",color:"green"}}><b>Thanks for being Awesome,<br></br>We hope you enjoyed your Ride!</b></p>
-               <Link to="/"> <button style={{borderRadius:"15px",backgroundColor:"rgb(93,118,112)",color:"white",fontSize:"25px",padding:"10px",border:"none",margin:"18px"}}>Go To Home</button></Link>
+               <Link to="/"> <button style={{borderRadius:"15px",backgroundColor:"rgb(16,163,16)",color:"white",fontSize:"25px",padding:"10px",border:"none",margin:"18px"}}>Go To Home</button></Link>
             </div>
         </>
     )

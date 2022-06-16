@@ -51,10 +51,10 @@ export const Login = () => {
         <h2 style={{ color: "black", margin: "40px" }}>Rent.Ride.Explore</h2>
         <div className={styles.logincard}>
           <div className={styles.loginbanner}>
-            <h6>LOGIN</h6>
+            <h4>LOGIN</h4>
           </div>
           <form onSubmit={handleSumbit}>
-            <h6 style={{ textAlign: "left", marginLeft: "20px" }}>Phone</h6>
+            <h4 style={{ textAlign: "left", marginLeft: "20px" }}>Phone</h4>
             <div
               style={{
                 display: "flex",
@@ -118,9 +118,9 @@ export const Login = () => {
               variant="contained"
               type="submit"
               sx={{
-                backgroundColor: "rgb(93,118,112)",
+                backgroundColor: "rgb(16,163,16)",
                 width: "90%",
-                color: "black",
+                color: "white",
                 marginLeft: "auto",
                 marginRight: "auto",
               }}
