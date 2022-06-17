@@ -4,7 +4,7 @@ export const Privacy = () => {
   return (
     <div class="pr-main">
     <h3 class="text-center fw-bold text-decoration-underline prt-mg">Privacy Policy</h3>
-    <p class="px-4 t-desc">Royal Brothers is a website(www.royalbrothers.com) and mobile application(Royal Brothers
+    <p class="px-4 t-desc">Zoomcar is a website(www.zoomcar.com) and mobile application(Zoomcar
         app) owned and operated by Royalbison Autorentals India Pvt. Ltd. a company registered and incorporated
         under the Companies Act,2013, whose address is at #560/1, 5th floor, Boomi plaza, CMH road 4th cross,
         Indiranagar, Bangalore-560038, Karnataka, India. Royal Brothers, is strongly committed in protecting your

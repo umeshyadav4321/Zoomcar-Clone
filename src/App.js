@@ -9,12 +9,9 @@ import { Login } from "./Components/Layout/Login/Login";
 import { store } from "./Redux/store";
 import { Provider } from "react-redux";
 import { Signup } from "./Components/Layout/Signup/Signup";
-// import { ProductDetails } from "./Components/Layout/ProductDetails";
-// import { Confirmed } from "./Components/Layout/Confirmed";
 import { Terms } from "./Page/TermsComponents/Terms";
 import { Privacy } from "./Page/PrivacyComponents/Privacy";
 import { Blog } from "./Page/BlogComponents/Blog";
-// import News from "./Components/Layout/News";
 import Carslist from "./Page/Carslist/Carslist"
 import SupermilerClub from "./Page/Supermiler/SupermilerClub";
 import {Success} from "./Page/success/Success"
